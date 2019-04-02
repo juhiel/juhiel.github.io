@@ -80,7 +80,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/first-img2.jpg) no-repeat bottom center scroll;
+  background: url(../img/first-img.jpg) no-repeat bottom center scroll;
   z-index: -1;
   background-color: black;
   -webkit-background-size: cover;
