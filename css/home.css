@@ -389,3 +389,7 @@ body {
 #journalism .portfolio-container {
     margin-top: 100px;
 }
+
+firstpg_img {
+  max-width: 50%
+}
