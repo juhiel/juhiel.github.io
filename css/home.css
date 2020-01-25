@@ -86,7 +86,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/first-img.jpg) no-repeat bottom center scroll;
+  /* background: url(../img/first-img.jpg) no-repeat bottom center scroll; */
   z-index: -1;
   background-color: black;
   -webkit-background-size: cover;
@@ -160,6 +160,14 @@ a:focus {
   width: 100%;
   position: absolute;
   bottom: 3%;
+}
+.intro-image{
+  display: inline;
+  z-index: 0;
+  position:absolute;
+  top: 5%;
+  right: -5%;
+  max-width:80%;
 }
 
 
