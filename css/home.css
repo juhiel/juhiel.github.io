@@ -87,7 +87,7 @@ a:focus {
   text-align: center;
   color: white;
   /* background: url(../img/first-img.jpg) no-repeat bottom center scroll; */
-  z-index: -1;
+  /* z-index: -1; */
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -101,10 +101,13 @@ a:focus {
 .intro .intro-body .brand-heading {
   font-weight: 300;
   font-size: 20px;
+  z-index: 3;
+  position: relative;
 
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
+  
 }
 @media (min-width: 768px) {
   .intro {
@@ -162,12 +165,13 @@ a:focus {
   bottom: 3%;
 }
 .intro-image{
-  display: inline;
+  /* display: inline; */
   z-index: 0;
   position:absolute;
-  top: 5%;
-  right: -5%;
-  max-width:80%;
+  top: 0%;
+  right: -6%;
+  max-width:100%;
+  height: auto;
 }
 
 
