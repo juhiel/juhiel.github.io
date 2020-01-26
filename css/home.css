@@ -25,11 +25,12 @@ h1{
 name1{
   font-size: 80px;
   font-weight: 200;
+  position: relative;
+  z-index: 3;
   font-family:'Lora',sans-serif;
   text-transform: uppercase;
 }
 
-,
 h2,
 h3,
 h4,
@@ -164,12 +165,13 @@ a:focus {
   position: absolute;
   bottom: 3%;
 }
-.intro-image{
+.intro .intro-image{
   /* display: inline; */
   z-index: 0;
   position:absolute;
+  overflow: hidden;
   top: 0%;
-  right: -6%;
+  right: -8%;
   max-width:100%;
   height: auto;
 }
